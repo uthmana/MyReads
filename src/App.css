@@ -3,9 +3,10 @@ html, body, .root {
 }
 body {
   line-height: 1.5;
+
 }
 body, .app {
-  background: white;
+  background:#ddd;
 }
 
 /* main page */

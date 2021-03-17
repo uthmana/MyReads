@@ -52,7 +52,7 @@ class BooksApp extends Component {
         if (response.length) {
           showingBooks = response.map(b => {
             const index = this.state.books.findIndex(c => c.id === b.id)
-            if( index >= 0 ) {
+            if(index >= 0 ) {
               return this.state.books[index]
             } else {
               return b
@@ -95,6 +95,7 @@ class BooksApp extends Component {
               </div>
             </div>
           )} />
+          
           <Route exact path="/" render={() => (
             <ListBook books={this.state.books}
                        onUpdateShelf={(book, shelf) => this.updateShelf(book, shelf)}/>

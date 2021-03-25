@@ -19,7 +19,7 @@
     "predeploy": "npm run build",
     "deploy": "npm run build && gh-pages -d build"
   },
-  "homepage": "https://uthmana.github.io/MyReads",
+  "homepage": "https://uthmana.github.io/MyReads/",
   "browserslist": {
     "production": [
       ">0.2%",
